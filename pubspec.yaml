@@ -1,7 +1,7 @@
 name: rdkr_widgets
 description: Collection of useful flutter widgets.
 version: 0.0.1-alpha
-homepage: https://www.rdkr.dev
+homepage: https://github.com/rdkr-smart-media/rdkr_widgets
 
 environment:
   sdk: ">=2.7.0 <3.0.0"
