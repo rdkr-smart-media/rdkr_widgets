@@ -1,6 +1,6 @@
 name: rdkr_widgets
 description: Collection of useful flutter widgets.
-version: 0.0.1-alpha
+version: 0.0.1+1-alpha
 homepage: https://github.com/rdkr-smart-media/rdkr_widgets
 
 environment:
@@ -22,8 +22,7 @@ flutter:
 
   # To add assets to your package, add an assets section, like this:
   assets:
-    - images/
-  #   - images/a_dot_ham.jpeg
+    - packages/rdkr_widgets/images/rotation_arrow.png
   #
   # For details regarding assets in packages, see
   # https://flutter.dev/assets-and-images/#from-packages

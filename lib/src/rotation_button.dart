@@ -117,12 +117,15 @@ class _RotationButtonState extends State<RotationButton>
             switchInCurve: Curves.easeOut,
             switchOutCurve: Curves.easeOut,
             child: state == RotationState.FRONT
-                ? Image(image: AssetImage("images/rotation_arrow.png"))
+                ? Image(
+                    image: AssetImage(
+                        "packages/rdkr_widgets/images/rotation_arrow.png"))
                 : Transform(
                     alignment: Alignment.center,
                     transform: Matrix4.rotationY(math.pi),
                     child: Image(
-                      image: AssetImage("images/rotation_arrow.png"),
+                      image: AssetImage(
+                          "packages/rdkr_widgets/images/rotation_arrow.png"),
                     ),
                   ),
           ),
